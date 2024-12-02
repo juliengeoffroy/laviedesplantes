@@ -1,0 +1,1 @@
+<script type="text/javascript">!function(e,t){(e=t.createElement("script")).src="https://cdn.convertbox.com/convertbox/js/embed.js",e.id="app-convertbox-script",e.async=true,e.dataset.uuid="<?= esc_js(get_option("convbox_embed_id", ""))?>",document.getElementsByTagName("head")[0].appendChild(e)}(window,document);</script>

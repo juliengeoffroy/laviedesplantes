@@ -1,0 +1,152 @@
+.cb-page {
+    box-sizing: border-box;
+}
+
+.cb-page *,
+.cb-page *:after,
+.cb-page *:before {
+    box-sizing: inherit;
+}
+
+.cb-hidden {
+    position: absolute;
+    top: -99999px;
+    left: -99999px;
+}
+
+.cb-form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cb-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    -webkit-font-smoothing: antialiased;
+}
+
+.cb-button-label {
+    font-size: 2em;
+}
+
+.cb-message-error {
+    font-size: 2.3em;
+    margin-bottom: 10px;
+    color: green;
+}
+
+.cb-message-success {
+    font-size: 2.3em;
+    margin-bottom: 10px;
+    color: #b00000;
+}
+
+.cb-input-area {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding: 6px;
+    margin: 10px;
+}
+
+.cb-input-area {
+    padding-left: 17px;
+    min-width: 350px;
+    min-height: 39px;
+    box-shadow: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-right: 9px;
+    border-radius: 3px;
+}
+
+.cb-input-area::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #b8c5cb;
+}
+.cb-input-area::-moz-placeholder { /* Firefox 19+ */
+    color: #b8c5cb;
+}
+.cb-input-area:-ms-input-placeholder { /* IE 10+ */
+    color: #b8c5cb;
+}
+.cb-input-area:-moz-placeholder { /* Firefox 18- */
+    color: #b8c5cb;
+}
+
+.cb-submit-button {
+    height: 37px !Important;
+    min-width: 119px;
+    border: 0;
+    background-color: #04d4b4;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    transition: all .2s ease-out;
+    font-weight: 600;
+    border-radius: 2px;
+}
+
+.cb-submit-button:hover {
+    box-shadow: inset 0 -2px rgba(0,0,0,.25);
+}
+
+.cb-status-text {
+    font-size: 16px;
+    margin-bottom: 26px;
+}
+
+.cb-success {
+    color: #04d4b4;
+}
+
+.cb-status-icon.cb-success {
+    color: #04d4b4;
+}
+
+.cb-fail {
+    color: #f25959;
+}
+
+.cb-status-icon {
+    font-size: 4.5em;
+    margin-top: 92px;
+    margin-bottom: 22px;
+    color: #ed7272;
+}
+
+.cb-logo {
+    margin-top: 100px;
+    width: 300px;
+}
+
+.cb-link {
+    text-decoration: none;
+    color: #1694cf;
+}
+
+.cb-link:hover {
+    text-decoration: underline;
+}
+
+.cb-page-subheadline-area {
+    text-align: center;
+    font-size: 15px;
+    color: #545f64;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.cb-page-headline {
+    margin-top: 120px;
+    margin-bottom: 24px;
+    color: #0098e6;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.dont-know-area {
+    margin-top: 14px;
+}
